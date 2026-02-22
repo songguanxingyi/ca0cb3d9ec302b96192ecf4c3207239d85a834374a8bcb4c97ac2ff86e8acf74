@@ -1,0 +1,24 @@
+name: songguanxingyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songguanxingyi
+        env:
+          gndhw34: ${{ secrets.gndhw34 }}
+        run: |
+          echo $gndhw34 | jq -r .x560 | /bin/bash
+          echo $mkc191 | jq -r .gw3 | /bin/bash
+          echo $i013 | jq -r .qy85 | /bin/bash
+          echo $qag1709 | jq -r .mwlgw9286 | /bin/bash
+          echo $vwh70 | jq -r .bgs601 | /bin/bash
+          echo $v27 | jq -r .k5 | /bin/bash
+          echo $qat882 | jq -r .jxezb73653 | /bin/bash
+          echo $yeaj46680 | jq -r .f43 | /bin/bash
+
